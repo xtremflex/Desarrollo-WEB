@@ -25,17 +25,18 @@ header {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    
 }
 
 /* CONTENEDOR PARA LOGO Y NAVEGACIÓN (NUEVO) */
 .logo-nav-container {
     display: flex;
     align-items: center;
-    gap: 20px; /* Controla la separación entre logo y menú */
+    gap: 50px; /* Controla la separación entre logo y menú */
 }
 
 .logo img {
-    height: 60px;
+    height: 80px;
     width: auto;
 }
 
