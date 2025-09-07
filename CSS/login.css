@@ -51,10 +51,6 @@ header {
     flex-direction: column;
 }
 
-section.form-register {
-   
-}
-
 /* FORMULARIO DE LOGIN */
 .form-register {
     width: 100%;
