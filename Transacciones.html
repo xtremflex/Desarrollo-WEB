@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Betanito - Transacciones</title>
+    
+    <link rel="stylesheet" href="CSS/styles.css">
+    
+    <link rel="icon" href="../images/icon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="contenedor-principal">
+        <header>
+            <div class="logo-nav-container">
+                <a href="Ruleta.html"  class="logo">
+                    <img src="../images/logo-casino.png" alt="Logo Betanito 2.0">
+                </a>
+
+                <nav class="menu-principal">
+                    <ul>
+                        <li><a href="Ruleta.html">Mesa de Ruleta</a></li>
+                        <li class="nav-actual">Transacciones</li>
+                        <li> <a href="perfil.html">Perfil Usuario</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="accesos">
+                <a Class="btn btn-registro"> USUARIO X</a>
+                <a href="Pagina_de_inicio.html" class="btn btn-acceso">Cerrar Sesion</a>
+            </div>
+        </header>
+
+        <main>
+            <section class="contenido-izquierdo">
+                <div class="texto-bienvenida">
+                    <h1>Transacciones</h1>
+                    
+                    <p>Aquí puedes depositar y retirar de tu cuenta del casino. El saldo (no) se actualizará automáticamente.</p>
+
+                    <h2><span class="saldo">Saldo actual: </span>$64.920 CLP</h2>
+
+                    <form id="form-deposito">
+                        <label for="monto-deposito">Monto a depositar:</label><br>
+                        
+                        <input type="number" id="monto-deposito" min="1" required>
+                        
+                        <button type="submit" class="btn btn-jugar">Depositar</button>
+                    </form>
+
+                    <form id="form-retiro">
+                        <label for="monto-retiro">Monto a retirar:</label><br>
+                        
+                        <input type="number" id="monto-retiro" min="1" required>
+                        
+                        <button type="submit" class="btn btn-jugar">Retirar</button>
+                    </form>
+                </div>
+            </section>
+
+            <section class="contenido-derecho">
+                <!-- hay que poner otra foto XDD -->
+                <img src="../images/fondo-casino.jpg" width=100% height=100%></img>
+            </section>
+        </main>
+
+        <footer>
+            <p>Proyecto académico - 2025</p>
+        </footer>
+    </div>
+</body>
+
+</html>

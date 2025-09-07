@@ -92,23 +92,36 @@ header {
     box-shadow: 0 0 5px rgba(230, 184, 0, 0.4);
 }
 
+/* ESTILOS ORIGINALES DEL BOTÓN (para inputs) */
 .botons {
     width: 100%;
     background: #e6b800;
     border: none;
     padding: 15px;
-    color: #000;
+    color: #000 !important;
     margin: 25px 0 15px 0;
     font-size: 18px;
     font-weight: bold;
     border-radius: 8px;
     cursor: pointer;
     transition: all 0.3s ease;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3)
 }
 
 .botons:hover {
     background: #ffcc00;
     transform: translateY(-2px);
+    text-decoration: none !important;
+}
+
+/* NUEVOS ESTILOS PARA EL BOTÓN COMO ENLACE */
+a.botons {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    box-sizing: border-box;
 }
 
 .form-register p {
